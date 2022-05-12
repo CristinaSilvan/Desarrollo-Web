@@ -1,0 +1,32 @@
+body{
+    background-color:burlywood;
+}
+header{
+    background-color: red;
+    padding-top: 50px; /*Separación entre el contenido y el borde de la caja*/
+}
+nav{
+    background-color: blue;
+}
+aside{
+    background-color: green;
+    float:left; /*Para cambiar los valores por defecto y se coloque a la izquierda "flotando"*/
+}/*Los demás elementos lo rodearán, se soluciona con margin*/
+/*margin hace referencia a los bordes*/
+
+section{
+    background-color: purple;
+    height:1020px; /*Cambiar alto*/
+}
+footer{
+    background-color: gray;
+    margin-left: 200px;
+}
+li{
+    background-color: aliceblue;
+    display:inline; /*Para que deje de ser de tipo block (no haga salto de líneas ni ocupe todo el ancho*/
+}
+p{
+    background-color: aliceblue;
+    display:inline; /*Ahora ocupa lo que los caracteres*/
+}
