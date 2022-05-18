@@ -1,0 +1,61 @@
+/* Modificaciones de las etiquetas*/
+body{
+    background-image: url(Files/space.jpg);
+    background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 25px;
+    text-align: center;
+    
+}
+
+audio{
+    float: left;
+}
+
+/* Mis clases */
+.bloque_izq {
+    width: 80%
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.bloque_top(){
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Customizaciones */
+#custom1{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+
+#custom2{
+    background-color: papayawhip;
+}
+#custom3{
+    color: white;
+}
+
+
+/* Custom de enlaces */
+a{
+    color: rgb(232, 155, 84);
+    text-decoration: none;
+    border: none;
+}
+a:Hover{
+    color: rgb(196, 101, 12);
+}
+
+
+
+
+
